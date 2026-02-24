@@ -1,9 +1,8 @@
 # PDF Standardiser & Merger
 
-A lightweight, cross-platform R script to automate the process of merging multiple PDF files, standardising their format, and removing specific unwanted pages (e.g., generic covers or blank pages).
+A lightweight and quick R script to merging multiple PDF files, standardising their format, and removing specific unwanted pages (e.g., generic covers or blank pages).
 
 ## **Key Features**
-* **Cross-Platform:** Works seamlessly on Windows and macOS using R's native path handling.
 * **Batch Processing:** Automatically detects and sorts all `.pdf` files in the working directory.
 * **Standardisation:** Re-processes pages via `qpdf` to ensure the final merged document is stable and corruption-free.
 * **Page Extraction:** Easily exclude specific pages from the final output (e.g., "Remove page 3").
@@ -20,6 +19,7 @@ install.packages("qpdf")
 ## **Quick Start**
 * Clone or Download this repository to your local machine.
 * Place all the PDF files you wish to merge into the same folder as the script.
+* Currently, the script does not allow sorting. You can add numbers in file names to force ranking your files first.
 * Open `pdf_merger.R` in RStudio or your preferred editor.
 * (Optional) Edit the `page_to_remove` variable if you need to delete a specific page (default is set to page 3).
 * Execute the script.

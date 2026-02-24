@@ -20,7 +20,7 @@ install.packages("qpdf")
 ## **Quick Start**
 * Clone or Download this repository to your local machine.
 * Place all the PDF files you wish to merge into the same folder as the script.
-* Open pdf_merger.R in RStudio or your preferred editor.
-* (Optional) Edit the page_to_remove variable if you need to delete a specific page (default is set to page 3).
+* Open `pdf_merger.R` in RStudio or your preferred editor.
+* (Optional) Edit the `page_to_remove` variable if you need to delete a specific page (default is set to page 3).
 * Execute the script.
-* Your merged file will appear as Standardised_Combined.pdf in the same directory.
+* Your merged file will appear as `Standardised_Combined.pdf` in the same directory.

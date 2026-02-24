@@ -1,6 +1,6 @@
 # PDF Standardiser & Merger
 
-A lightweight and quick R script to merging multiple PDF files, standardising their format, and removing specific unwanted pages (e.g., generic covers or blank pages).
+A lightweight and quick R script for merging multiple PDF files, standardising their format, and removing specific unwanted pages (e.g., generic covers or blank pages).
 
 ## **Key Features**
 * **Batch Processing:** Automatically detects and sorts all `.pdf` files in the working directory.

@@ -20,7 +20,7 @@ output_filename <- "Standardised_Combined.pdf"
 temp_folder_name <- "temp_processing_dir"
 
 output_final  <- file.path(input_dir, output_filename)
-temp_dir      <- file.path(input_dir, temp_folder_name)
+temp_dir <- file.path(input_dir, temp_folder_name)
 
 # --- File Preparation ---
 files <- list.files(path = input_dir, pattern = "(?i)\\.pdf$", full.names = TRUE)

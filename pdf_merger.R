@@ -2,7 +2,6 @@
 # Script Name: PDF Standardiser & Merger
 # Description: Combines all PDFs in a directory, standardizes formatting, 
 #              and removes a specific page (e.g., a generic cover).
-# Author: Your Name/GitHub Username
 # Date: 2026-02-24
 # Dependencies: pdftools, qpdf
 # License: MIT
@@ -50,7 +49,7 @@ message("Processing ", length(files), " files...")
 for (i in seq_along(files)) {
   out_path <- file.path(temp_dir, paste0("std_", i, ".pdf"))
   
-  # Standardize by subsetting all pages (ensures qpdf compatibility)
+  # Standardise by subsetting all pages (ensures qpdf compatibility)
   n_pages <- pdf_info(files[i])$pages
   pdf_subset(files[i], pages = 1:n_pages, output = out_path)
   
